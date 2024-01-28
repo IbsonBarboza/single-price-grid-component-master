@@ -8,9 +8,9 @@
 
     <title>single-price-grid-component-master</title>
 </head>
-<body class="bg-GrayishBlue h-full flex flex-col justify-center">
-    <main class="bg-white m-7 rounded-lg">
-        <section class="p-7">
+<body class="bg-GrayishBlue h-full md:h-screen flex flex-col items-center justify-center">
+    <main class="m-7 rounded-lg md:min-w-[600px] shadow-lg">
+        <section class="p-7 bg-white rounded-t-lg">
             <h1 class="text-Cyan font-bold text-xl mb-5">
                 Join our community
             </h1>
@@ -18,12 +18,12 @@
                 30-day, hassle-free money back guarantee
             </a>
             <p class="text-GrayishBlue mt-5 leading-7">
-                Gain access to our full library of tutorials along with expert code reviews.
+                Gain access to our full library of tutorials along with expert code reviews. <br class="hidden md:block">
                 Perfect for any developers who are serious about honing their skills.
             </p>
         </section>
-        <section>
-            <div class="bg-Cyan p-7 text-white">
+        <section class="md:flex">
+            <div class="bg-Cyan p-7 text-white md:w-full md:rounded-none md:rounded-bl-lg">
                 <h2 class="text-xl font-semibold opacity-90">
                     Monthly Subscription
                 </h2>
@@ -33,12 +33,11 @@
                 <p class="opacity-70 mb-7 mt-2">
                     Full access for less than &dollar;1 a day
                 </p>
-                <button class="bg-BrightYellow w-full p-3 rounded-lg font-semibold text-lg shadow-lg
-                ">
+                <button class="bg-BrightYellow w-full p-3 rounded-lg font-semibold text-lg shadow-lg hover:bg-white hover:text-BrightYellow">
                     Sign Up
                 </button>
             </div>
-            <div class="p-7 bg-CyanLight text-white rounded-b-lg">
+            <div class="p-7 bg-CyanLight text-white rounded-b-lg md:w-full md:rounded-none md:rounded-br-lg">
                 <h2 class="text-lg font-semibold mb-4">
                     Why Us
                 </h2>
